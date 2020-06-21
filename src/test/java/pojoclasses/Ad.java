@@ -26,6 +26,8 @@ public class Ad {
 		this.text = text;
 	}
 		
+//whenever we are trying to print any object reference, internally toString() method will be called. 
+// System.out.println(adObject), it will internally call toString() method	
 
 	@Override
 	public String toString() {
